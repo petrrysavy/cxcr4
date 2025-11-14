@@ -1,10 +1,10 @@
-= Hierarchical Bandits for Protein Engineering with SpeedPPI =
+# Hierarchical Bandits for Protein Engineering with SpeedPPI
 
 This repository contains code needed to reproduce the experiments coming with paper.
 
-Hierarchical Bandits for Protein Engineering with SpeedPPI
-Petr Ryšavý, Adéla Drahokoupilová, Mark Osborn, Filip Železný
-To be published.
+> Hierarchical Bandits for Protein Engineering with SpeedPPI
+> Petr Ryšavý, Adéla Drahokoupilová, Mark Osborn, Filip Železný
+> To be published.
 
 Here, we combine hierarchical bandit approach with the SpeedPPI to modify
 a protein. We test our approach on the CXCR4 protein, which server as an
@@ -12,7 +12,7 @@ entry point of the HIV virus, and its primary function is represented via
 SDF-1 binding. Our task is, therefore, to mutate its sequence, so that the
 SDF-1 binding is preserved, and the binding to HIV GP120 is weakened.
 
-== How to run the code ==
+# How to run the code
 
 1. First, setup the SpeedPPI algorithm in the `SpeedPPI` directory. Follow the guide at (https://github.com/patrickbryant1/SpeedPPI).
  Keep the `predict_single.sh` file provided in the `SpeedPPI` dierectory and download the UniRef30 (https://colabfold.mmseqs.com/) in folder
